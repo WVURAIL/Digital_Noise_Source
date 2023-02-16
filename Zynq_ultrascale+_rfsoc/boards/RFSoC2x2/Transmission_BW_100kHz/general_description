@@ -1,5 +1,10 @@
+
+
 This is the working model of transmission of a signal (No noise signal) that is read from Processing system (PS) memory of the board. Signal is read from 
 PS memory of the Zynq Ultrascale+ board at the rate 100 kSa/s and sent to Programmable Logic (PL) fabric where it is upsampled to 128 MSa/s by BPSK 
 transmitter, and to 1.024 GSPS by RF-DAC onboard (in PL). Signal is transmitted through RF-DAC port (Tile 229) with a DAC mixer frequency of 1 GHz. 
 The design is modified from BPSK radio transceiver developed by University of Strathclyde (https://github.com/strath-sdr/rfsoc_radio/tree/master/boards/RFSoC2x2).
 Only transmitter part is working for the given design.
+
+
+
