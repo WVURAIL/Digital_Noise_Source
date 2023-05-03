@@ -1,1 +1,3 @@
-Test
+
+
+This is single LFSR design with 256MHz broadband noise signal with sampling rate Fs=1.024GHz and reference clock frequency Fref=409.6MHz
