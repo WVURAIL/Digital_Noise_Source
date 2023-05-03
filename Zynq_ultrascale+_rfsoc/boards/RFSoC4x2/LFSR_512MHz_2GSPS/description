@@ -1,0 +1,7 @@
+
+This is generation of 512 MHz broadband noise with sampling frequency of 2.048MHz. 
+Made changes in overlay.py in PYNQ envrionment -> DynamicPLLConfig -> Fs=2.048 GHz (Doesn't matter; making no change also works)
+
+""" Working design """
+
+
