@@ -1,0 +1,5 @@
+This is 256-LFSR design with 512MHz broadband and Fs=4.096GHz; Fref=409.6MHz
+
+1.Change Sampling frequency in RFDC IP core in Vivado. 
+
+Design to be tested ->
