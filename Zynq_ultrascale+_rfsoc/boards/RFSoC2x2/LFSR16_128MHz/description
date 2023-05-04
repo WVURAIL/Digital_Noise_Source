@@ -1,0 +1,4 @@
+
+This is 16-LFSR design with generation of 128 MHz broadband noise, sampling frequency Fs 1.024 MHz, reference clock Fref 409.6MHz. 
+
+""" Working design"""
