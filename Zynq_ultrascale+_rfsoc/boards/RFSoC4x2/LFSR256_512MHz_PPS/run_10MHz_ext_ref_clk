@@ -1,0 +1,18 @@
+Running RFSoC4x2 noise source with external 10MHz ref clock 
+
+
+1. Make clock connections with a board -> give 10 MHz output from TM5101 to CLK_IN SMA port of the board; connect 5V DC power supply; connect GPS antenna to GNSS SMA port of the clock 
+
+2. Give power (12V power adapter) to the board  and connect the board to the PC with USB composite cable  
+
+3. Make connection between DAC_A SMA port of the board and Spectrum analyzer with coax and connect spectrum analyzer to the lab machine (intended to use with spectrum analyzer); Open the software and run "tools->align" (before connecting RF input to the spectrum analyzer)  
+
+4. Once the RFSoC board is connected to the machine, open a web browser and browse to http://192.168.3.1/lab -> Jupyter Notebook login screen will open 
+
+5. Enter password -> xilinx 
+
+6. Run notebook in the folder lfsr256_512MHz_4gsps 
+
+7. Set mixer frequency to 600MHz (max: 2048MHz) and you should see the nice 512 MHz broadband spectrum on the lab machine. 
+
+ 
