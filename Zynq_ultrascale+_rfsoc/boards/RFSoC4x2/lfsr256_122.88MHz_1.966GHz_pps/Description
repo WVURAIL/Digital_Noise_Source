@@ -1,0 +1,11 @@
+This is 256-LFSR design with 122.88 MHz broadband and Fs=1.96608GHz; Fref=491.52MHz
+ADC -- 3.93216GHz sample rate -- Fabric clock required 245.76MHz but given 61.440MHz (Can be ignored since not using ADCs of the board), ADC clock out 61.440MHz
+
+-- Adder tree for the addition of all LFSRs changed with same delays at every stage of pipeline
+Reinterpret blocks after first concat block removed as they were redundant ones 
+
+-- PPS given to reset the signal ; pps given to comparator input AJ13
+
+-- rfdc is taking ref_clk (for both adc and dac) of 491.52MHz which makes Fs= 1.96608GHz and giving clk_dac_out = 122.88MHz option and required axi stream clock at 122.88MHz (directly provided from clk_dac_out w/o any clocking wizard derivation) with WNS +3.360 and TNS 0.000 (failed routes 0) 
+
+""" design verified on the board """ 
