@@ -1,0 +1,6 @@
+
+This is 256-LFSR design with 512MHz broadband and Fs=4.096GHz; Fref=409.6MHz
+
+1. PPS given to reset the signal ; pps given to comparator input AJ13
+
+""" working design """
